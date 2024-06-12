@@ -16,7 +16,7 @@
 
 
  - text: Services
-   url: "#"
+   url: "https://expo.generatedart.com/services/"
    dropdown:
     - text: "Exhibitions"
       url: "https://expo.generatedart.com/"
