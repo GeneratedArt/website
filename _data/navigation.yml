@@ -5,7 +5,7 @@
    url: "#"
 
  - text: About
-   url: "#"
+   url: "/about.html"
    dropdown:
     - text: "About us"
       url: "/about.html"
