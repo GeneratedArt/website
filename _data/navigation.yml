@@ -4,6 +4,9 @@
  - text: Collections
    url: "#"
 
+ - text: Events
+   url: "/events.html"
+
  - text: About
    url: "/about.html"
    dropdown:
