@@ -31,7 +31,7 @@ tumblr_url: "https://www.tumblr.com/generatedart"
 copyright_text: "Copyright © 2025 GeneratedArt. All rights reserved."
 
 email: "info@generatedart.com"
-office_address: "Rue Gourgas 3, 1205 Geneva, Switzerland"
+office_address: "Rue François-Versonnex 17BIS, 1207 Geneva, Switzerland"
 
 plugins:
   - jekyll-feed
