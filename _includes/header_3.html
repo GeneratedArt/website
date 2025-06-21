@@ -69,6 +69,11 @@
 			<!--Social Links-->
 			<div class="social-links">
                 <ul class="clearfix">
+                    {% if site.telegram_url %}
+                    <li>
+                        <a href="{{site.telegram_url}}"><span class="fab fa-telegram"></span></a>
+                    </li>
+                    {% endif %}
                     {% if site.twitter_url %}
                     <li>
                         <a href="{{site.twitter_url}}"><span class="fab fa-twitter"></span></a>
@@ -79,9 +84,9 @@
                         <a href="{{site.facebook_url}}"><span class="fab fa-facebook-square"></span></a>
                     </li>
                     {% endif %}
-                    {% if site.pinterest_url %}
+                    {% if site.linkedin_url %}
                     <li>
-                        <a href="{{site.pinterest_url}}"><span class="fab fa-pinterest-p"></span></a>
+                        <a href="{{site.linkedin_url}}"><span class="fab fa-linkedin"></span></a>
                     </li>
                     {% endif %}
                     {% if site.instagram_url %}
@@ -92,6 +97,11 @@
                     {% if site.youtube_url %}
                     <li>
                         <a href="{{site.youtube_url}}"><span class="fab fa-youtube"></span></a>
+                    </li>
+                    {% endif %}
+                    {% if site.tiktok_url %}
+                    <li>
+                        <a href="{{site.tiktok_url}}"><span class="fab fa-tiktok"></span></a>
                     </li>
                     {% endif %}
                 </ul>
